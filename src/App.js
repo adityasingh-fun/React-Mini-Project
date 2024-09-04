@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import GenerateQRCode from './components/QRCode/GenerateQRCode';
+import ChangeTheme from './components/ChangeTheme/ChangeTheme';
+import TicTacToe from './components/TicTacToe/TicTacToe';
+import AutoSearchImplementation from './components/AutoSearcHImplementation/AutoSearchImplementation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Generate QR Code */}
+      {/* <GenerateQRCode/> */}
+
+      {/* Change Theme */}
+      {/* <ChangeTheme/> */}
+
+      {/* Tic Tac Toe */}
+      {/* <TicTacToe/> */}
+
+      {/* Auto Search Implementation using API */}
+      <AutoSearchImplementation/>
     </div>
   );
 }
